@@ -1,0 +1,49 @@
+﻿h1 
+{
+color:white;
+letter-spacing:-2px;
+font-size:3.5em;
+font-weight:normal;
+margin-top:10px;
+margin-bottom:10px;
+margin-left:30px;
+}
+
+a
+{
+color:#ffffff;
+clear:none;
+letter-spacing:-2px;
+font-size:1.5em;
+font-weight:normal;
+margin-left:30px;
+}
+
+input, textarea {
+border:1px solid #555;
+background:#333;
+color:#dddddd;
+font-family:arial;
+margin-top:5px;
+margin-bottom:5px;
+margin-left:30px;
+padding:6px;
+width:300px;
+float:left;
+clear:both;
+
+}
+
+.button 
+{
+width:100px;
+border:1px solid #333;
+cursor:pointer;
+background:#000;
+}
+
+
+input:focus, textarea:focus {
+background:#222;
+color:#dddddd;
+}

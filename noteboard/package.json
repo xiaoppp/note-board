@@ -1,0 +1,9 @@
+{
+    "name": "MessageMatrix"
+  , "version": "0.0.1"
+  , "private": true
+  , "main": ./server.js
+  , "dependencies": {
+      "express": "2.5.8"
+  }
+}

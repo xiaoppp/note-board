@@ -1,0 +1,164 @@
+﻿/* 
+----------------------------------------------------------
+created by xiaop 2010
+----------------------------------------------------------
+background: #222;
+*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+body
+{
+    max-width: 1400px;
+    min-width:800px;
+    color: #C0C0C0;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    background: #222;
+}
+
+a
+{
+    color:White;
+    }
+    
+#wrapper
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right:  0px;
+    bottom: 0px;
+    }
+
+
+#floatbar
+{
+    position:absolute;
+    background: #3D3D3F;
+    clear:both;
+    float:left;
+    width: 100%;
+    }
+    
+#line
+{
+    position:absolute;
+    left: 33px;
+    right: 33px;
+    top: 105px;
+    background-color:White;
+    clear:both;
+    height:3px;
+    border-radius: 2px;
+}
+
+#workspace
+{
+    position:absolute;
+    left: 0px;
+    top: 110px;
+    clear:none;
+    width:100%;
+    min-height: 600px;
+}
+
+
+#topbar
+{
+    Left: 0px;
+    right: 0px;
+    top: 30px;
+    position:absolute;
+    height: 65px;
+    overflow: hidden;
+    display:block;
+}
+#toolbar
+{
+    float: right; clear: none; margin-right: 70px; margin-top: 37px;
+}
+
+#iconbar
+{
+    display: inline; float: left; clear: none;
+    }
+
+#iconbar ul
+{
+    margin-left:70px;
+}
+    
+#iconbar ul li
+{
+    clear:none;
+    display: inline;
+    height:65px;
+    width:65px;
+    padding:0px,8px;
+    cursor:move;
+}
+
+#copyright
+{
+    position:absolute;
+    right:40px;
+    bottom:50px;
+    font-size:12px;
+    }
+
+#loading
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	color: #fff;
+	padding-top: 300px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 9999999;
+}
+
+#loading p
+{
+    font-size:50px;
+    margin: 0 auto;
+	padding: 1em;
+	width: 400px;
+	-webkit-border-radius: 10px;
+    }
+
+#message
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding-top: 300px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	display: none;
+	z-index: 9999999;
+}
+
+#message p
+{
+	margin: 0 auto;
+	padding: 1em;
+	background: rgba(0, 0, 0, 0.7);
+	width: 400px;
+	-webkit-border-radius: 10px;
+}
+
+#savebutton
+{
+    padding:1px;
+    }

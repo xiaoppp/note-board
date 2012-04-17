@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>register</title>
+    <link type="text/css" href="styles/site.css" rel="stylesheet" />
+    <link type="text/css" href="styles/i.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="scripts/jquery-1.4.1-vsdoc.js"></script>
+    <script type="text/javascript">
+        function cleartext(texttype) {
+            if (texttype == 'name' && document.getElementById("name").value == "name")
+                document.getElementById("name").value = "";
+            if (texttype == 'password' && document.getElementById("password").value == "password")
+                document.getElementById("password").value = "";
+        }
+    </script>
+</head>
+<body>
+    <div style="margin-top:300px;margin-left:300px;">
+        <table style="width:550px; border: 2px solid #FFFFFF;">
+            <tr>
+                <td colspan="2"><h1>register</h1></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="name" id="name" value="name" onclick="cleartext('name');" style="color:#fff;" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="password" id="password" value="password"  onclick="cleartext('password');" style="color:#fff;" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input name="submit" class="button" type="submit" value="Submit" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

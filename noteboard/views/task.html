@@ -1,0 +1,50 @@
+﻿<div class="item task" id="${id}">
+    <div class="handle">
+        <span class="title">Task</span> <a title="remove" class="removeLink" href="javascript:void(null)"
+            style="background-image: url('/images/item/remove.png')"></a><a title="color" href="javascript:void(null)"
+                id="icp_colorvalue" style="background-image: url('/images/item/color.png')" onclick="iColorShow('${id}','${id}')">
+            </a><a title="expand" class="expandLink" href="javascript:void(null)" style="background-image: url('/images/item/max.png')">
+            </a><a title="collapse" class="collapseLink" href="javascript:void(null)" style="background-image: url('/images/item/min.png')">
+            </a>
+    </div>
+    <div class="extention">
+        <table cellspacing="5" border="0">
+            <tr>
+                <td>
+                    Complete:
+                </td>
+                <td>
+                    <input type="checkbox" class="taskCheck" />
+                </td>
+                <tr>
+                    <td>
+                        Title:
+                    </td>
+                    <td>
+                        <textarea cols="27" class="nameTxt" rows="1"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date:
+                    </td>
+                    <td colspan="2">
+                        <input class="datepicker" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Description:
+                    </td>
+                    <td colspan="2">
+                        <textarea style="margin-top: 7px;" cols="27" class="descriptionTxt" rows="17"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="button" value="save" class="ui-button">
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>

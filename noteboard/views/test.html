@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript">
+//        var socket = io.connect('http://localhost');
+//        socket.on('connected', function (itemsdata) {
+//            alert('123');
+//        })
+
+        var testobj = function (id, name) {
+            this.id = id;
+            this.name = name;
+
+            this.test = function () {
+                alert(this.id);
+                alert(this.name);
+            }
+
+            this.show = function () {
+                this.test();
+            }
+        }
+
+        var a = new testobj(5, "abc");
+        a.show();
+
+    </script>
+</head>
+<body>
+</body>
+</html>

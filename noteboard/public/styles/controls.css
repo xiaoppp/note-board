@@ -1,0 +1,48 @@
+﻿/* controls */
+.item
+{
+    min-width:130px;
+    width:320px;
+    position: absolute;
+    padding: 7px;
+    background-color: #FFFFFF;
+    color:Black;
+    border-radius: 2px;
+    display:block;
+}
+
+.item .handle
+{
+    cursor:move;
+    }
+    
+    /*
+    margin-left:1px;
+    margin-right:2px;
+    */
+.item .handle .title
+{
+    }    
+    
+.item .handle a
+{
+    display:inline;
+    clear:none;
+    float:right;
+    width: 22px; 
+    height: 22px; 
+    margin-left:2px;
+    }
+
+.extention
+{
+    margin-top:5px;
+    padding:5px;
+    border: 1px solid #a1b4b0;
+    background-color: #DBDBDB;
+}
+    
+.extention input
+{
+    border: 1px solid #C0C0C0;
+}
